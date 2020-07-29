@@ -1,5 +1,5 @@
 Este é um Repositório de teste do git. Este teste estamos 
-aplicando no curso online de django misnistrato pela 
+aplicando no curso online de django, misnistrato pela 
 Geek University.
 
 #### Objetivos:
@@ -24,6 +24,7 @@ git log | Apresenta o historico de commits realizados
 git log --oneline | Apresenta o histírico em uma linha dos commits realizados
 git chekout "id do commit" | Os arquivos serão apresentados conforme estvam no commit especificado
 git checout master | volta para a breanch master
+git pull | baixa as modificações feita por outros usuarios ou diretamente no repositóro remoto 
 
 OBS: não trabalharei com branchs nesse projeto. por isso não utilezei comandos
 para iniciar uma branch, para realizar marges e para realizar rebases.
