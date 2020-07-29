@@ -11,7 +11,7 @@ Geek University.
 ##### Comandos testados do git
 
 Código | Comentário
--------|-----------:
+-------|:-----------
 git status | Aapresenta as Modificações feitas
 git init | Inicia um repositório Local
 git config user.name | Configura o Usuário no repositorio Local
@@ -28,13 +28,14 @@ git checout master | volta para a breanch master
 OBS: não trabalharei com branchs nesse projeto. por isso não utilezei comandos
 para iniciar uma branch, para realizar marges e para realizar rebases.
 
-####Curso de Django
+#### Curso de Django
 
 Por Respeito e por direitos da Geek University, o contúdo do cruso de django não 
 iremos colocar o arquivo de explicações das aulas. Somente colocarei os arquivos
 de módulo básico. Os módulos intermediário e avançados não farei o uso do github. 
 
 Abaixo o link de apresentação do curso.
+
 https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/learn/lecture/15362316#content
  
 A todos, um Forte Abraço!
