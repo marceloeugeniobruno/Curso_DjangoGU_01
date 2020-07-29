@@ -35,6 +35,7 @@ iremos colocar o arquivo de explicações das aulas. Somente colocarei os arquiv
 de módulo básico. Os módulos intermediário e avançados não farei o uso do github. 
 
 Abaixo o link de apresentação do curso.
+
 https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/learn/lecture/15362316#content
  
 A todos, um Forte Abraço!
