@@ -1,33 +1,42 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
     <title>Curso Django 1 - Index</title>
 </head>
 <body>
     <center>
-        <h2>Django</h2>
+        <h2>Curso de Django</h2>
+        <img src="{% static 'images/logo.jpg' %}">
+        <br><br>
         <p>{{ curso }}<br>{{ apresentacao }}</p>
-        <table>
-            <thead>
-                <th>Produto</th>
-                <th>Preço</th>
-            </thead>
-            <tbody>
-                {% for produto in produtos%}
-                    <tr>
-                        <td><a href="{% url 'produto' produto.id %}" > {{ produto.nome }}</a></td>
-                        <td>{{ produto.proco }}</td>
-                    </tr>
-                {% endfor%}
-            </tbody>
-
-
-        </table>
-
-
-
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <table class="table table-bordered table-dark" >
+                        <thead>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                        </thead>
+                        <tbody>
+                            {% for produto in produtos%}
+                                <tr>
+                                    <td><a href="{% url 'produto' produto.id %}" > {{ produto.nome }}</a></td>
+                                    <td>{{ produto.proco }}</td>
+                                </tr>
+                            {% endfor%}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button onclick="teste();" class="btn btn-dark">Botão de teste de JS</button>
     </center>
-
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
