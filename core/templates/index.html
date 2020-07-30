@@ -8,6 +8,22 @@
     <center>
         <h2>Django</h2>
         <p>{{ curso }}<br>{{ apresentacao }}</p>
+        <table>
+            <thead>
+                <th>Produto</th>
+                <th>Preço</th>
+            </thead>
+            <tbody>
+                {% for produto in produtos%}
+                    <tr>
+                        <td><a href="{% url 'produto' produto.id %}" > {{ produto.nome }}</a></td>
+                        <td>{{ produto.proco }}</td>
+                    </tr>
+                {% endfor%}
+            </tbody>
+
+
+        </table>
 
 
 
