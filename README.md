@@ -1,11 +1,16 @@
-Este é um Repositório de teste do git. Este teste estamos 
+Este é um repositório de teste do git. Este teste estamos 
 aplicando no curso online de django, misnistrato pela 
 Geek University.
 
-##### link do projeto funcionando
+##### link do projeto realizado no curso de django funcionando.
+
 https://cursodjango001-ma.herokuapp.com/
 
-'OBS': por questões de segurança não adicionei o arquivo settings.py.
+#### link de apresentação do curso.
+
+https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/learn/lecture/15362316#content
+
+'OBS': por questões de segurança não adicionamos o arquivo settings.py.
 
 #### Objetivos:
 
@@ -40,8 +45,6 @@ Por Respeito e por direitos da Geek University, o contúdo do cruso de django n�
 iremos colocar o arquivo de explicações das aulas. Somente colocarei os arquivos
 de módulo básico. Os módulos intermediário e avançados não farei o uso do github. 
 
-Abaixo o link de apresentação do curso.
 
-https://www.udemy.com/course/programacao-web-com-django-framework-do-basico-ao-avancado/learn/lecture/15362316#content
  
 A todos, um Forte Abraço!
