@@ -2,6 +2,11 @@ Este é um Repositório de teste do git. Este teste estamos
 aplicando no curso online de django, misnistrato pela 
 Geek University.
 
+##### link do projeto funcionando
+https://cursodjango001-ma.herokuapp.com/
+
+'OBS': por questões de segurança não adicionei o arquivo settings.py.
+
 #### Objetivos:
 
 -Testar comandos e funcionalidades do git.
